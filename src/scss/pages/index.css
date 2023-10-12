@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cars {
+  background-color: rgb(228, 228, 228);
+  border-color: red;
+}
+.cars .sect-container {
+  margin: auto;
+  max-width: 1140px;
+}
+.cars .sect-container .row {
+  padding: 0 20px;
+}
+.cars .sect-container .row .sect-header {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  padding: 20px 0;
+}
+.cars .sect-container .row .sect-header .name-search {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.cars .sect-container .row .sect-header .name-search .search-icons {
+  height: 40px;
+  width: 50px;
+  display: flex;
+  position: relative;
+}
+.cars .sect-container .row .sect-header .name-search .search-icons:hover {
+  cursor: pointer;
+}
+.cars .sect-container .row .sect-header .name-search .search-icons .fa-circle {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  transition: 0.5s;
+}
+.cars .sect-container .row .sect-header .name-search .search-icons .fa-minus {
+  transform: rotate(45deg);
+  top: 17px;
+  left: 23px;
+}
+.cars .sect-container .row .sect-header .name-search .search-icons .visible {
+  position: absolute;
+  transition: 0.5s;
+}
+.cars .sect-container .row .sect-header .name-search .search-icons .invisible {
+  position: absolute;
+  transition: 0.5s;
+}
+.cars .sect-container .row .sect-header .name-search input {
+  height: 40px;
+  border: none;
+  outline: none;
+  max-width: 0px;
+  background-color: transparent;
+}
+.cars .sect-container .row .sect-header button {
+  padding: 10px;
+  font-weight: 700;
+}
+.cars .sect-container .row .sect-header select option {
+  padding: 10px;
+}
+.cars .sect-container .row .cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cars .sect-container .row .cards-wrapper .card {
+  width: 25%;
+  padding: 10px;
+}
+.cars .sect-container .row .cards-wrapper .card .card-inside {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.cars .sect-container .row .cards-wrapper .card .card-inside .card-img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cars .sect-container .row .cards-wrapper .card .card-inside .card-img img {
+  width: 100%;
+}
+.cars .sect-container .row .cards-wrapper .card .card-inside .card-writings .car-price p {
+  font-size: 20px;
+}
+.cars .sect-container .row .cards-wrapper .card .card-inside .card-writings .car-name {
+  font-weight: 700;
+}
+.cars .sect-container .row .cards-wrapper .card .card-inside .card-writings .about-car {
+  color: rgb(90, 90, 90);
+}
+
+.fa-minus-onClick {
+  top: 12px !important;
+  left: 13px !important;
+}
+
+.rotate135-onClick {
+  transform: rotate(135deg) !important;
+}
+
+.circle-top {
+  top: 10px !important;
+  left: 10px !important;
+}
+
+.input-width {
+  max-width: 160px !important;
+  padding: 5px 20px 5px 0 !important;
+}/*# sourceMappingURL=index.css.map */

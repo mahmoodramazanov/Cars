@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../src/scss/pages/index.css" />
+  </head>
+  <body>
+    <section class="cars">
+      <div class="sect-container">
+        <div class="row">
+          <div class="sect-header">
+            <div class="name-search">
+              <div class="search-icons">
+                <i class="fa-regular fa-circle"></i>
+                <i class="fa-solid fa-minus visible"></i>
+                <i class="fa-solid fa-minus invisible"></i>
+              </div>
+              <input type="text" id="search" />
+            </div>
+            <select name="" id="years">
+              <option value="all">All</option>
+              <option value="2001">2001-2005</option>
+              <option value="2006">2006-2010</option>
+              <option value="2011">2011-2015</option>
+              <option value="2016">2016-2020</option>
+              <option value="2021">2021+</option>
+            </select>
+            <button>SIRALA</button>
+          </div>
+          <div class="cards-wrapper"></div>
+        </div>
+      </div>
+    </section>
+    <script src="../../src/scripts/index.js"></script>
+  </body>
+</html>
